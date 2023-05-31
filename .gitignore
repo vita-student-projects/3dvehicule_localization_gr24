@@ -7,7 +7,6 @@ checkpoint/
 dataset/debug_tools.py
 debugger/
 venv/
-resources/
 dataset_folder/
 config.yaml
 logs
