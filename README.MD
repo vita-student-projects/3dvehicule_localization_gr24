@@ -25,10 +25,11 @@ If you have any question about this project, you can contact us at
 ### Results with our video sample
 This video shows a quick inference of our model: 
 
-<video width="auto" height="auto" controls>
-  <source src="resources/car.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+
+https://github.com/vita-student-projects/3dvehicule_localization_gr24/assets/29159082/bc0d441e-a309-493e-bda1-7c5a2526adf5
+
+
+
 
 ### Features
 - [x] KITTI Evaluation
