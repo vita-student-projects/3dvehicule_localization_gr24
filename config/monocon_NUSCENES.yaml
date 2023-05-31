@@ -1,0 +1,18 @@
+DESCRIPTION: "MonoCon Default Configuration"
+OUTPUT_DIR: "logs/monocon_nuscenes" 
+DETECTOR: "MonoConDetector"
+DATA:
+  BATCH_SIZE: 8
+  ROOT: "/home/vince/datasets/nuscenes_kitti_exported"
+  NUSCENES: True
+  FILTER:
+    KPTS: 9 
+PERIOD:
+  EVAL_PERIOD: 1
+  LOG_PERIOD: 1
+SOLVER:
+  OPTIM:
+    NUM_EPOCHS: 200  
+MODEL:
+  HEAD:
+    NUM_CLASSES: 3

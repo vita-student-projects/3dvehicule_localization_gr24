@@ -1,0 +1,16 @@
+.git
+_debug/
+__pycache__/
+pretrained/
+checkpoint/
+*.pth
+dataset/debug_tools.py
+debugger/
+venv/
+resources/
+dataset_folder/
+config.yaml
+logs
+checkpoints
+noah-venv
+vincent

@@ -1,0 +1,14 @@
+DESCRIPTION: "MonoCon Default Configuration"
+OUTPUT_DIR: "logs/monocon_normal_200_v3_fix_dataset" 
+DETECTOR: "MonoConDetector"
+DATA:
+  BATCH_SIZE: 16
+  ROOT: "/home/vince/datasets/KITTI"
+  FILTER:
+    KPTS: 9 
+PERIOD:
+  EVAL_PERIOD: 10
+  LOG_PERIOD: 5
+SOLVER:
+  OPTIM:
+    NUM_EPOCHS: 200  
