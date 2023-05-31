@@ -218,6 +218,8 @@ Our qualitative results showcase the effectiveness of our enhanced 3D vehicle lo
 <img src="resources/img3.png">
 *Image from in Lausanne with our own car*<br/><br/>
 
+## Performance
+The model runs at 8 fps on a Tesla T4 GPU with 2 CPU Intel(R) Xeon(R) CPU @ 2.20GHz and input image size of 1242x375, which is sufficient for real-time applications with car. Before our contribution, the model was able to run at 12fps. But to identify and track pedestrians or cyclists, a high inference time is required (30 fps would be good). The model is also able to run on a CPU, but the inference time is significantly longer (around 1 fps or less).
 
 ## Conclusion
 In conclusion, our project focused on implementing 3D vehicle localization. We addressed the limitation of the selected state-of-the-art model by enhancing it with Multi Object Tracking (MOT) techniques. By computing 3D Intersection over Union (IoU) and using the Hungarian algorithm, we assigned bounding boxes to tracklets. Additionally, we incorporated Long Short-Term Memory (LSTM) networks to refine tracking by predicting object states and combining them with new detections. Our results demonstrate improved accuracy in occlusion or partial visibility scenarios. These advancements contribute to more reliable autonomous vehicles and robotic systems.
