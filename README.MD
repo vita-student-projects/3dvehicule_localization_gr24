@@ -17,6 +17,8 @@ Results demonstrate the model is able to still determine the vehicles position e
 
 The report is based on the **[MonoCon: Learning Auxiliary Monocular Contexts Helps Monocular 3D Object Detection (AAAI, 2022)](https://arxiv.org/abs/2112.04628)** and **[Monocular Quasi-Dense 3D Object Tracking](https://arxiv.org/abs/2103.07351)**
 
+A presentation is available at: https://www.youtube.com/watch?v=XafVQ4Ar4-E&ab_channel=VincentGHEROLD
+
 If you have any question about this project, you can contact us at
 - vincent@gherold.com
 - lugonnoah@gmail.com
